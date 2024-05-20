@@ -232,6 +232,7 @@ def update_best_log(config, newlog, best_valid_result):
     newlog_filename = newlog[newlog.rindex('/')+1:]
 
     if not found:
+        print("newlog = ",newlog," folder_best = ",folder_best, " newlog_filename ",newlog_filename)
         shutil.copyfile(newlog, folder_best+newlog_filename)
     else:
         newvalue = metric_value
