@@ -218,7 +218,7 @@ def update_best_log(config, newlog, best_valid_result):
     match = [dataset, model, metric]
 
 
-    folder_best = './log/best/'
+    folder_best = config['logdir']
     existing_logs = glob.glob(folder_best+'/*.log')
 
     found = False
