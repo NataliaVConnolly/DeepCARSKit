@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: deepcarskit
+Version: 1.0.0
+Summary: A Deep Learning Based Context-Aware Recommendation Library
+Home-page: https://github.com/irecsys/DeepCARSKit
+Author: Yong Zheng
+Author-email: DeepCARSKit@Gmail.com
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Provides-Extra: hyperopt
+License-File: LICENSE
