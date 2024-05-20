@@ -30,9 +30,9 @@ setup(
     '1.0.1',  # please remember to edit deepcarskit/__init__.py in response, once updating the version
     description='A Deep Learning Based Context-Aware Recommendation Library',
     long_description_content_type="text/markdown",
-    url='https://github.com/irecsys/DeepCARSKit',
+    url='https://github.com/NataliaVConnolly/DeepCARSKit',
     author='Yong Zheng',
-    author_email='DeepCARSKit@Gmail.com',
+    author_email='natalia.v.connolly@gmail.com',
     packages=[
         package for package in find_packages()
         if package.startswith('deepcarskit')
